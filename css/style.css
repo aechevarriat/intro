@@ -1,0 +1,20 @@
+.pati {
+  background:black;
+  color:white;
+  text-align:center;
+  font-weight:bold;
+
+}
+
+table  { 
+ border-collapse: collapse;
+ background:pink;
+ color:white;
+ 
+ }
+
+table , th , td {
+
+border: 2px solid black;
+
+}

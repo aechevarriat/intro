@@ -1,0 +1,21 @@
+table , th ,td {
+
+  border:1px solid grey;
+ }
+
+table {
+	
+    border-collapse: collapse;
+}
+
+
+ td.electronica {
+
+  height: 160px; 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
