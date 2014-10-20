@@ -2,8 +2,10 @@ body { font-size: 1em; }
 h1 { font-size: 100%; }
 h2 { font-size: 150%; }
 
-div#contenido { width: 600px; }
-div.principal { width: 80%; } 
+/*Div.principal se pone % porque como está dentro de contenido aumenta de manera proporcional */
+
+div#contenido { width: 100%;background:red }
+div.principal { width: 80%;background:blue } 
 
 /* Las palabras de todos los párrafos deben estar separadas 4 milímetros entre si */
 p { word-spacing: 4mm; }
