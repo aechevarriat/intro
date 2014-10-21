@@ -1,0 +1,17 @@
+<html>
+ 
+<head>
+<title>Ejemplo de etiqueta acronym</title>
+</head>
+ 
+<body>
+<p>El lenguaje <abbr title="HyperText Markup Language">HTML</abbr> es estandarizado 
+por el <acronym title="World Wide Web Consortium">W3C</acronym>.</p>
+
+<p>Con estos síntomas, podría tratarse de un caso de <dfn title="Imagen o sensación subjetiva, 
+propia de un sentido, determinada por otra sensación que afecta a un sentido 
+diferente">sinestesia</dfn></p>
+
+</body>
+ 
+</html>

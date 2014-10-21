@@ -1,0 +1,55 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">
+<html>
+<head>
+<title>Ejemplo de formulario sencillo</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+</head>
+<body>
+<h3>Formulario muy sencillo</h3>
+<form action="http://www.librosweb.es/maneja_formulario.php" method="get">
+<label for="so">Sistema operativo</label> <br/>
+<select id="so" name="so">
+<option value="" selected="selected">- selecciona -</option>
+<option value="windows">Windows</option>
+<option value="mac">Mac</option>
+<option value="linux">Linux</option>
+<option value="otro">Otro</option>
+</select>
+<label for="so2">Sistema operativo</label> <br/>
+<select id="so2" name="so2" size="5">
+<option value="windows" selected="selected">Windows</option>
+<option value="mac">Mac</option>
+<option value="linux">Linux</option>
+<option value="otro">Otro</option>
+</select>
+<label for="so3">Sistema operativo</label> <br/>
+<select id="so3" name="so3" size="5" multiple="multiple">
+<option value="windows" selected="selected">Windows</option>
+<option value="mac">Mac</option>
+<option value="linux">Linux</option>
+<option value="otro">Otro</option>
+</select>
+<label for="programa">Programa seleccionado</label> <br/>
+<select id="programa" name="programa">
+<optgroup label="Sistemas Operativos">
+<option value="Windows" selected="selected">Windows</option>
+<option value="Mac">Mac</option>
+<option value="Linux">Linux</option>
+<option value="Other">Otro</option>
+</optgroup>
+<optgroup label="Navegadores">
+<option value="Internet Explorer" selected="selected">Internet Explorer</option>
+<option value="Firefox">Firefox</option>
+<option value="Safari">Safari</option>
+<option value="Opera">Opera</option>
+<option value="Other">Otro</option>
+</optgroup>
+</select>
+<br/>
+<input type="submit" value="Enviar" />
+</form>
+</body>
+</html>

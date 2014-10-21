@@ -1,39 +1,52 @@
-
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title>Ejemplo de formulario sencillo</title>
+	<title>Currículum Vitae</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.22" />
 </head>
 
 <body>
 	
-	<h3>Rellena tu CV</h3>
+	<h3>RELLENA TU CV</h3>
  
+
 <form action="http://www.librosweb.es/maneja_formulario.php" method="post">
   <label for="nombre">Nombre:</label>
-  <input type="text" id="nombre"size="30" name="nombre" value="" /><br/>
+  <input type="text" id="nombre"size="20" maxlength="30" name="nombre" value="" /><br/>
   
   <label for="Apellidos">Apellidos:</label>
-  <input type="text" id="Apellidos"size="80" name="Apellidos" value="" /><br/>
+  <input type="text" id="Apellidos"size="50" maxlength="80" name="Apellidos" value="" /><br/>
   
   <label for="Contraseña">Contraseña:</label>
-  <input type="password" id="Contraseña" size="10" name="contraseña" value="" /><br/>
+  <input type="password" id="Contraseña" maxlength="10" name="contraseña" value="" /><br/>
  
   <label for="DNI">DNI:</label>
-  <input type="text" id="nombre"size="30" name="DNI" value="" /><br/>
-  
-  <label>Sexo:</label> 
-<input type="radio" id="sexo" name="sexo" value="hombre" checked="checked" /> Hombre<br/>
-<input type="radio" name="sexo" value="mujer" /> Mujer<br/>
+  <input type="text" id="nombre" size="10" maxlength="9"  name="DNI" value="" /><br/>
  
-  <input type="submit" value="Enviar" />
+Sexo <br/>
+<input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre <br/>
+<input type="radio" name="sexo" value="mujer" /> Mujer
+ 
+<br/><br/>
+ 
+Incluir mi foto <input type="file" name="foto" Elegir>
+ 
+<br/><br/>
+ 
+<input name="suscribir" type="checkbox" value="suscribir" checked="checked"/> Suscribirme al boletín de novedades
+ 
+<br/><br/>
+ 
+<input type="submit" name="enviar" value="Guardar cambios" />
+<input type="reset" name="limpiar" value="Borrar los datos introducidos" />
+ 
+ 
 </form>
 	
 </body>
 
 </html>
+
