@@ -1,0 +1,53 @@
+*{
+
+	margin:0px;
+	padding:0px;
+
+}
+
+
+#contenidor{ 
+
+	witdh:50% ;
+	height:200px ;
+}
+
+.left{
+
+	width:10% ;
+	height:10% ;
+	background: blue ;
+	border: 1px solid black ;
+	float :left ;
+}
+
+.menu{
+
+	background:green;
+	color:white;
+	width:10%;
+	float:left;
+}
+
+.clear{
+
+	clear:left;
+}
+
+#cinc{
+
+	visibility:hidden;
+	
+}
+#dos{
+
+	display:none;
+}
+
+.left:hover{
+	backgrouynd:brown;
+	color:white;
+	border:2px white;
+
+
+
