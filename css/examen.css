@@ -5,20 +5,44 @@
 
 }
 
-body{
+body {
 
- background-image:url("img/index.jpeg")/>
+ background-image:url("../img/index.jpeg") ;
+ 
+ }
+ 
+ #nav {
+	padding:0.5em;
+	margin-bottom:0.5em;
+	border-bottom: 1px solid #004C99
+}
+
+#head {
+
+
 
 }
 
-#header {
+title{ 
 
-	witdh:50% ;
-	height:200px ;
-    background: url("https://dl.dropboxusercontent.com/u/14499359/apweb/logoapweb.png");
-} 
-{ 
+font-size: 20pt; 
+text-align :left ;
+font-weight: bold ;
+font-color: #black ;
+	
+}
 
+span {
+
+font-size: 30pt; 
+text-align :right ;
+font-weight: bold ;
+font-color: #white ;
+background-color: #green ;
 
 
 }
+
+
+
+
