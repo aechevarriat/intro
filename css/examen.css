@@ -1,3 +1,6 @@
+
+/*elimina el margen y el relleno de todos los elementos HTML */
+
 *{
 
 	margin:0px;
@@ -5,11 +8,15 @@
 
 }
 
+/*El background de la pàgina és una imatge */
+
 body {
 
  background-image:url("../img/body.gif") ;
  
 }
+
+
  
 #header img{
 	
@@ -19,22 +26,26 @@ body {
 	height: 50px;
 }
 
+
+
 #nav li{
 
 	float:left;
 	color: white ;
 	font-weight: bold ;
-    height: 50px ;
+    height: 40px ;
 	background:black;
 	list-style-type:none;
 	font-size : 14pt ;
+	width: 100px ;
+	
 	
 }
 
-#imggorila img {
+#imggorila img{
 
 	top:15% ;
-	left:25% ;
+	left:12% ;
 	position: absolute ;
 	
  
@@ -46,10 +57,10 @@ body {
 	color: white;
 	text-align :left ;
 	font-weight: bold ;
-	color: black ;
-	font-size: 20pt; 
+	background-color: green ;
+	font-size: 30pt; 
 	position: absolute;
-	top: 12%;
+	top: 25%;
 	left: 47%;
 		
 	
@@ -65,15 +76,14 @@ body {
 }	
 
 
+h1 {
 
-title{ 
+	font-size: 20pt;
+	color: black ;
 
-font-size: 20pt; 
-text-align :left ;
-font-weight: bold ;
-font-color: #black ;
-	
 }
+
+
 
 
 
