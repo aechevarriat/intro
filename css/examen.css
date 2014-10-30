@@ -7,21 +7,64 @@
 
 body {
 
- background-image:url("../img/index.jpeg") ;
+ background-image:url("../img/body.gif") ;
  
- }
+}
  
- #nav {
-	padding:0.5em;
-	margin-bottom:0.5em;
-	border-bottom: 1px solid #004C99
+#header img{
+	
+	float: left;
+	margin: 10px;
+	width: 50px;
+	height: 50px;
 }
 
-#head {
+#nav li{
 
-
-
+	float:left;
+	color: white ;
+	font-weight: bold ;
+    height: 50px ;
+	background:black;
+	list-style-type:none;
+	font-size : 14pt ;
+	
 }
+
+#imggorila img {
+
+	top:15% ;
+	left:25% ;
+	position: absolute ;
+	
+ 
+}
+
+#imggorila span{
+
+	font-family: verdana;
+	color: white;
+	text-align :left ;
+	font-weight: bold ;
+	color: black ;
+	font-size: 20pt; 
+	position: absolute;
+	top: 12%;
+	left: 47%;
+		
+	
+}
+
+#video iframe {
+
+	position: absolute ;
+	top:75% ;
+	left:45% ;
+	margin: 10px;
+	
+}	
+
+
 
 title{ 
 
@@ -32,16 +75,10 @@ font-color: #black ;
 	
 }
 
-span {
-
-font-size: 30pt; 
-text-align :right ;
-font-weight: bold ;
-font-color: #white ;
-background-color: #green ;
 
 
-}
+
+
 
 
 
