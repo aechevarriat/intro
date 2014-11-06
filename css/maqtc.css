@@ -1,0 +1,129 @@
+*{
+
+	margin:0px;
+	padding:0px;
+
+}
+
+
+#contenidor {
+
+	
+	border: black 1px solid;
+	width:90%;
+    height:600px;
+    margin-left:5%;
+	margin-right:5%;
+	margin-top:10px;
+}
+div#cap {
+
+	background-color: blue;
+    font-size:150%; 
+	border: black 1px solid;
+	padding: 10px;
+	text-align: center;
+	float:left;
+	height: 5%;
+	width: 94%;
+	margin-top:10px;
+	margin-left:15px;
+
+}
+
+div#cont1 {
+
+	background-color: red;
+	font-size:150%;
+    border: black 1px solid;
+	padding: 100px;
+	text-align: center;
+	float:left;
+	height: 10%;
+	width: 14%;
+	margin-top:20px;
+	margin-left:15px;
+
+
+}
+
+div#cont2 {
+		
+	background-color: orange;	
+	font-size:150%;
+	border: black 1px solid;
+	text-align: center;
+	float: left;
+	height: 10%;
+	width: 3%;
+	margin-left:5px;
+	margin-top:20px;
+	padding: 100px;
+	
+}
+
+div#menu {
+
+	background-color: brown;
+	font-size:150%;
+	border: black 1px solid;
+	text-align: center;
+	float: left;
+	height: 10%;
+	width: 3%;
+	margin-left:5px;
+	margin-top:20px;
+	padding: 100px;
+	
+
+}
+
+div#sep {
+
+
+	background-color: yellow;
+	font-size:150%;
+	border: black 1px solid;
+	text-align: center;
+	float: left;
+	height: 2%;
+	width: 91%;
+	margin-left:13px;
+	margin-top:20px;
+	padding: 25px;
+
+
+}
+
+div#peu1 {
+
+
+	background-color: pink;
+	font-size:150%;
+	border: black 1px solid;
+	text-align: center;
+	float: left;
+	height: 1%;
+	width: 30%;
+	margin-left:13px;
+	margin-top:20px;
+	padding: 25px;
+
+}
+
+
+div#peu2 {
+
+	background-color: green;
+	font-size:150%;
+	border: black 1px solid;
+	text-align: center;
+	float: left;
+	height: 1%;
+	width: 30%;
+	margin-left:13px;
+	margin-top:20px;
+	padding: 25px;
+
+
+}
