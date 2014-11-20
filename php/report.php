@@ -15,7 +15,7 @@ $last_name = $_POST ["lastname"];
 $when_it_happened = $_POST['whenithappened'];
 $how_long = $_POST['howlong'];
 $how_many = $_POST['howmany'];
-$alien_description = $_POST['aliendescription'];
+$aliens_description = $_POST['aliendescription'];
 $what_they_did = $_POST['whattheydid'];
 $fang_spotted = $_POST['fangspotted'];
 $email = $_POST['email'];
@@ -26,10 +26,25 @@ $email = $_POST['email'];
 <p>Last name: <?php echo $last_name;?></p>
 <p>You where abducted <?php  echo $when_it_happened;?> and where gone for <?php echo $how_long;?></p>
 <p>How many did you see?<?php echo $how_many;?></p>
-<p>Describe them: <?php echo $alien_description;?></p>
+<p>Describe them: <?php echo $aliens_description;?></p>
 <p>What did they do to you? <?php echo $what_they_did;?></p>
 <p>Was Fang there? <?php echo $fang_spotted;?></p>
 <p>Your email address is <?php echo $email;?></p>
+
+<?php
+$dbc = mysqli_connect('172.16.2.40', 'alicia', 'alicia', 'aliensdatabase')
+or die('Error connecting to MySQL server.');
+$query = "INSERT INTO aliens_abduction (first_name, last_name, when_it_happened, how_long, " .
+"how_many, aliens_description, what_they_did, fang_spotted, other, email) " .
+"VALUES ('$first_name', '$last_name', '$when_it_happened', '$how_long', '$how_many', '$aliens_description ', " .
+"'$what_they_did', '$fang_spotted', 'I may have seen your dog. Contact me.', " .
+"'$email')";
+$result = mysqli_query($dbc, $query)
+or die('Error querying database.');
+mysqli_close($dbc);
+
+
+?>
 
 </body>
 
