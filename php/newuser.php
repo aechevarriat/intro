@@ -9,6 +9,8 @@
 
 <body>
 	
+		
+			<form method="post" action="login.html">
 	
 <?php
 $firstname = $_POST['firstname'];
@@ -26,15 +28,14 @@ $password = $_POST['password'];
 <input type="submit" value="Report Abduction" name="submit" />
 
 <?php
-$dbc = mysqli_connect('172.30.10.193', 'guillem', 'guillem', 'aliendatabase')
+$dbc = mysqli_connect('172.16.2.40', 'alicia', 'alicia', 'user_db')
 or die('Error connecting to MySQL server.');
 $query = "INSERT INTO user (first_name, last_name, user, password) " .
-"VALUES (' $firstname', ' $lastname', '3 days ago', '1 day', 'four', 'green with six tentacles', " .
-"'We just talked and played with a dog', 'yes', 'I may have seen your dog. Contact me.', " .
-"'sally@gregs-list.net')";
+"VALUES (' $firstname', ' $lastname', '$user', '$password')";
 $result = mysqli_query($dbc, $query)
 or die('Error querying database.');
 mysqli_close($dbc);
+
 ?>
 
 </body>
