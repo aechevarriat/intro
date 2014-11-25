@@ -11,25 +11,26 @@
 
 <body>
 	
+	
 <?php
 $user = $_POST['user'];
-echo "user: $user<br/>";
 $password = $_POST['password'];
-echo "password: $password<br/>";
+
 ?>
 
 <?php
 $dbc = mysqli_connect('172.16.2.40', 'alicia', 'alicia', 'user_db')
 or die('Error connecting to MySQL server.');
-$query="SELECT user,password FROM user where user='$user'";
+$query="SELECT user,password,first_name,last_name FROM user where user='$user'";
 echo "$query<br>";
 
-$result = mysql_query($dbc, $query);
-$row = mysql_fetch_array($result);
+$result = mysqli_query($dbc, $query);
+$row = mysqli_fetch_array($result);
 echo "row el password que ve de la base de dades és:".$row['password']."<br/>";
 echo "el password que ens ve del formulari és:$password<br>";
 if ($password==$row['password']){
 		echo "LOGIN CORRECTE<BR>";
+		echo
 	}else{
 		echo "LOGIN INCORRECTE<BR>";
 	}
